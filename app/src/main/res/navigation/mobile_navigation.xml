@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (C) 2017 The Android Open Source Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -22,13 +21,11 @@
         tools:layout="@layout/main_fragment">
 
         <!-- TODO STEP 8 - Add action with transitions -->
-        <!--<action-->
-            <!--android:id="@+id/next_action"-->
-            <!--app:destination="@+id/flow_step_one"-->
-            <!--app:enterAnim="@anim/slide_in_right"-->
-            <!--app:exitAnim="@anim/slide_out_left"-->
-            <!--app:popEnterAnim="@anim/slide_in_left"-->
-            <!--app:popExitAnim="@anim/slide_out_right" />-->
+        <action
+            android:id="@+id/action_launcher_home_to_flow_step_one"
+            app:destination="@+id/flow_step_one"
+            app:popUpTo="@+id/launcher_home"
+            app:popUpToInclusive="true" />
 
         <!-- TODO ENDSTEP -->
 
