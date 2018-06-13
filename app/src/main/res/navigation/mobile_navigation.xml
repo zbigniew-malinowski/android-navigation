@@ -24,7 +24,7 @@
         <action
             android:id="@+id/action_launcher_home_to_flow_step_one"
             app:destination="@+id/flow_step_one"
-            app:popUpTo="@+id/launcher_home"
+            app:popUpTo="@+id/flow_step_one"
             app:popUpToInclusive="true" />
 
         <!-- TODO ENDSTEP -->
